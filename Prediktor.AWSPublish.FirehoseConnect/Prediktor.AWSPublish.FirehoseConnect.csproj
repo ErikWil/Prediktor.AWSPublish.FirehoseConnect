@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Prediktor.AWSPublish.FirehoseConnect</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.KinesisFirehose" Version="3.*" />
+    <PackageReference Include="AWSSDK.Core" Version="3.*" />
+  </ItemGroup>
+
+</Project>
